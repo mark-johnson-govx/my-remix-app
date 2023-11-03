@@ -51,7 +51,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: "hello-remix"
+          app-name: "hello-remix2"
           slot-name: "Production"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CF56A0C9F56B42DD8151C10774CC05A8 }}
           package: "release.zip"
